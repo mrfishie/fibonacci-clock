@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Fibonacci Clock</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="clock">
+    <!--
+    <div class="fib-2" id="cell-3" data-size="2"></div>
+    <div class="fib-1" id="cell-2" data-size="1"></div>
+    <div class="fib-1" id="cell-1" data-size="1"></div>
+    <div class="fib-5" id="cell-5" data-size="5"></div>
+    <div class="fib-3" id="cell-4" data-size="3"></div>
+    -->
+
+    <div class="cell fib-1" id="cell-1" data-size="1">
+        <div class="bg"></div>
+        <div class="flash"></div>
+        <div class="shadow"></div>
+    </div>
+    <div class="cell fib-1" id="cell-2" data-size="1">
+        <div class="bg"></div>
+        <div class="flash"></div>
+        <div class="shadow"></div>
+    </div>
+    <div class="cell fib-2" id="cell-3" data-size="2">
+        <div class="bg"></div>
+        <div class="flash"></div>
+        <div class="shadow"></div>
+    </div>
+    <div class="cell fib-3" id="cell-4" data-size="3">
+        <div class="bg"></div>
+        <div class="flash"></div>
+        <div class="shadow"></div>
+    </div>
+    <div class="cell fib-5" id="cell-5" data-size="5">
+        <div class="bg"></div>
+        <div class="flash"></div>
+        <div class="shadow"></div>
+    </div>
+</div>
+
+<div class="time">
+    <p id="time"></p>
+</div>
+
+<script src="clock.js"></script>
+
+</body>
+</html>
